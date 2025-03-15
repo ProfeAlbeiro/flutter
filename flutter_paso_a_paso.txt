@@ -19,11 +19,112 @@
 |||----------------------------------------------------------------------------------------------------------------------------------------------------|||
 |||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
 
+
+PS C:\Users\Aprendiz\Desktop\flutter> cd sources/api-rest-personas
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (api-rest-personas)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas\package.json:
+
+{
+  "name": "api-rest-personas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+Is this OK? (yes)
+
+npm notice
+npm notice New major version of npm available! 10.9.0 -> 11.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+npm notice To update run: npm install -g npm@11.2.0
+npm notice
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm install express
+
+added 69 packages, and audited 70 packages in 6s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> node .\index.mjs
+Listening on 127.0.0.1:3000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
 |-- 01.01. Java Development Kit (JDK): ------------------------------------------------------------------------------------------------------------------|
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
 
             01. Descarga e instala desde Oracle: https://nodejs.org/es/ e instalarla.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|
