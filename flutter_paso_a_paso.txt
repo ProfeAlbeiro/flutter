@@ -98,4 +98,24 @@ added 29 packages, and audited 99 packages in 3s
   run `npm fund` for details
 
 found 0 vulnerabilities
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i dotenv
+
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i mysql2-promise
+npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise 
+now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm warn deprecated
+npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+added 15 packages, and audited 115 packages in 5s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+2 critical severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
 PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> 

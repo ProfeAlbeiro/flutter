@@ -1,5 +1,10 @@
 // server.mjs
 import { createServer } from 'node:http';
+import express from 'express';
+import pool from './src/database/connection.mjs';
+
+
+
 
 const server = createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
