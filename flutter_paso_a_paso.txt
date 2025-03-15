@@ -118,4 +118,27 @@ Some issues need review, and may require choosing
 a different dependency.
 
 Run `npm audit` for details.
-PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> 
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas>
+
+
+--------------------------------------------------------------------------------
+AJUSTES
+
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm run dev
+
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm start
+
+> api-rest-personas@1.0.0 start
+> node index.mjs
+
+Listening on 127.0.0.1:3000
+Error al conectar con la base de datos: Access denied for user 'root'@'localhost' (using password: YES)
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm start
+
+> api-rest-personas@1.0.0 start
+> node index.mjs
+
+Listening on 127.0.0.1:3000
+Conexión exitosa a la base de datos: [ { result: 1 } ]
