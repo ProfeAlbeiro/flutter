@@ -142,3 +142,7 @@ PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm start
 
 Listening on 127.0.0.1:3000
 Conexión exitosa a la base de datos: [ { result: 1 } ]
+
+------------------------------------------------------------
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i cors
