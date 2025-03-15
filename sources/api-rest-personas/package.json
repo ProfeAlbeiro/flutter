@@ -10,9 +10,14 @@
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareFactoryCEET/api-rest-personas/issues"
+  },
+  "homepage": "https://github.com/SoftwareFactoryCEET/api-rest-personas#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mysql2": "^3.13.0",
     "mysql2-promise": "^0.1.4"
   },
   "devDependencies": {
