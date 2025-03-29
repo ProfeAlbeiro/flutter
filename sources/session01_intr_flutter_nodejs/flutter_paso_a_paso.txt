@@ -1,0 +1,148 @@
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+|||----------------------------------------------------------------------------------------------------------------------------------------------------|||
+|||---------------------------------------------------- FLUTTER PASO A PASO ----------------------------------------------------------------------|||
+|||----------------------------------------------------------------------------------------------------------------------------------------------------|||
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+|||                                                                                                                                                    |||
+||| -- 01.  PREPARAR EL ENTORNO DE DESARROLLO                                                                                                          |||
+||| -- 02.  CREANDO API                                                                                                                                           |||
+|||                                                                                                                                                    |||
+||| -- AUTOR:           INSTRUCTOR ALBEIRO RAMOS. SENA, 2025. ADAPTACIÓN HECHA AL MATERIAL DEL INSTRUCTOR VLADIMIR CORTÉS                              |||
+||| -- BIBLIOGRAFÍA:    https://drive.google.com/drive/folders/1hcDs6C2b7VJmfl5cpMSGkECFwmVPMl6I?usp=drive_link                                                                                                                            |||
+|||                                                                                                                                                    |||
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+
+
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+|||----------------------------------------------------------------------------------------------------------------------------------------------------|||
+|||------------------------------------------------------ 01. PREPARAR EL ENTORNO DE DESARROLLO -------------------------------------------------------|||
+|||----------------------------------------------------------------------------------------------------------------------------------------------------|||
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+
+
+
+
+
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+|||----------------------------------------------------------------------------------------------------------------------------------------------------|||
+|||----------------------------------------------------------------- 02. CREANDO API ------------------------------------------------------------------|||
+|||----------------------------------------------------------------------------------------------------------------------------------------------------|||
+|||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
+
+
+PS C:\Users\Aprendiz\Desktop\flutter> cd sources/api-rest-personas
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (api-rest-personas)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas\package.json:
+
+{
+  "name": "api-rest-personas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+Is this OK? (yes)
+
+npm notice
+npm notice New major version of npm available! 10.9.0 -> 11.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+npm notice To update run: npm install -g npm@11.2.0
+npm notice
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm install express
+
+added 69 packages, and audited 70 packages in 6s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> node .\index.mjs
+Listening on 127.0.0.1:3000
+
+
+
+-- Abrir otra terminal ---
+
+
+PS C:\Users\Aprendiz\Desktop\flutter> cd sources/api-rest-personas
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm install --save-dev nodemon
+
+added 29 packages, and audited 99 packages in 3s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i dotenv
+
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i mysql2-promise
+npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise 
+now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm warn deprecated
+npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+added 15 packages, and audited 115 packages in 5s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+2 critical severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas>
+
+
+--------------------------------------------------------------------------------
+AJUSTES
+
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm run dev
+
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm start
+
+> api-rest-personas@1.0.0 start
+> node index.mjs
+
+Listening on 127.0.0.1:3000
+Error al conectar con la base de datos: Access denied for user 'root'@'localhost' (using password: YES)
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm start
+
+> api-rest-personas@1.0.0 start
+> node index.mjs
+
+Listening on 127.0.0.1:3000
+Conexión exitosa a la base de datos: [ { result: 1 } ]
+
+------------------------------------------------------------
+
+PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i cors
