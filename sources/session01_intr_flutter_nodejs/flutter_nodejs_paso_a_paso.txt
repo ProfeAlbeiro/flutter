@@ -147,3 +147,13 @@ Conexión exitosa a la base de datos: [ { result: 1 } ]
 ------------------------------------------------------------
 
 PS C:\Users\Aprendiz\Desktop\flutter\sources\api-rest-personas> npm i cors
+
+
+{
+    "identificacion": "123456789",
+    "nombre": "Pepito",
+    "apellido": "Perez",
+    "email": "pepito@perez.com",
+    "telefono": "3153153156",
+    "direccion": "Av. Siempre Viva"
+}
