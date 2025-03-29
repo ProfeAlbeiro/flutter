@@ -5,10 +5,11 @@
 |||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
 |||                                                                                                                                                    |||
 ||| -- 01.  PREPARAR EL ENTORNO DE DESARROLLO                                                                                                          |||
-||| -- 02.  CREANDO API                                                                                                                                           |||
+||| -- 02.  CREANDO API                                                                                                                                |||
 |||                                                                                                                                                    |||
 ||| -- AUTOR:           INSTRUCTOR ALBEIRO RAMOS. SENA, 2025. ADAPTACIÓN HECHA AL MATERIAL DEL INSTRUCTOR VLADIMIR CORTÉS                              |||
-||| -- BIBLIOGRAFÍA:    https://drive.google.com/drive/folders/1hcDs6C2b7VJmfl5cpMSGkECFwmVPMl6I?usp=drive_link                                                                                                                            |||
+||| -- BIBLIOGRAFÍA:    https://drive.google.com/drive/folders/1vXHN0oCAdUBK2yRcYl-MSmBxaTlxxy4U?usp=drive_link                                        |||
+|||                     https://drive.google.com/drive/folders/1hcDs6C2b7VJmfl5cpMSGkECFwmVPMl6I?usp=drive_link                                        |||
 |||                                                                                                                                                    |||
 |||\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|||
 
